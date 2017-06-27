@@ -42,7 +42,6 @@ for turn in range(1,5):
             board[guess_row][guess_col] = "X"
 
     turn += 1
-    #print "Turn: ", turn
     print_board(board)
     print
     if turn == 5:
