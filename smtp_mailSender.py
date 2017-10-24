@@ -14,7 +14,7 @@ subject = 'Title of subject...'
 # Adding content of a file and appending to body of the message
 texto = commands.getoutput('cat %s' % sys.argv[1])
 # Adding plain text to the body
-texto += "\n Teste de construcao do corpo do e-mail com mais caracteres.\n Tentativa #01 de burlar o Spam-Score, veremos se produz resultado.\n Aparentemente funcionou, agora tem que ver a quantidade minima de caracteres pra ele considerar como uma mensagem 'padrao'\n do sistema e nao considerar mais como spamm, sera que funciona?"
+texto += "\n Conteúdo do e-mail em texto puro, adicionando qualquer coisa...\n Assinado: Joao Spammer"
 
 msg = MIMEMultipart()
 msg['From'] = FROM
